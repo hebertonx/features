@@ -1,18 +1,13 @@
 #language: pt
 
-Funcionalidade: Abrir a pagina do mercado e visualizar o primeiro produto
-A fim de abrir a pagina do mercado Angeloni Super
-Como um cliente
-Eu quero acessar o primeiro produto do primeiro departamento
+Funcionalidade: Abrir a página
 
 Contexto: Dado um usuário do tipo cliente
-E ter acesso ao site do mercado Angeloni Super
+E ter acesso ao home
 
-
-Cenário: Acessar o produto do primeiro departamento
+Cenário: Abrir produto
 Dado que o cliente esteja logado
 E  abra a lista de departamentos
-Quando selecionar o primeiro produto 
-E abrir a página do produto
-Então o cliente terá acesso ao produto
+Quando abrir o primeiro produto 
+Então deverão ser exibida as informações do produto
 
