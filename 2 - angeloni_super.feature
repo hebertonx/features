@@ -1,13 +1,10 @@
 #language: pt
 
-Funcionalidade: Abrir a página
-
-Contexto: Dado um usuário do tipo cliente
-E ter acesso ao home
+Funcionalidade: Abrir página
 
 Cenário: Abrir produto
-Dado que o cliente esteja logado
-E  abra a lista de departamentos
-Quando abrir o primeiro produto 
-Então deverão ser exibida as informações do produto
+Dado que esteja na home
+Quando abrir a lista de departamentos
+E abrir o primeiro produto 
+Então deverá ser exibida as informações do produto
 
