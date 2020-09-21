@@ -3,8 +3,8 @@
 Funcionalidade: Pesquisa
 
 Cenário: Pesquisar imagem
-Dado que o usuário esteja na home
-Quando acionar a pesquisa com "batata"
+Dado que esteja na home
+Quando pesquisar "batata"
 E abrir  imagens
 E abrir a primeira imagem
 Então deverá ser exibido a imagem 
